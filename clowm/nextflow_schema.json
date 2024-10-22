@@ -56,7 +56,8 @@
                     "description": "A JSON file of key value pairs to display on the report.",
                     "help_text": "This is used to populate a table of additional information (for example, about upstream components of an assay) to the workflow report.",
                     "hidden": true
-                }
+                },
+                "required": ["fastq"] 
             },
             "allOf": [
                 {
@@ -239,7 +240,8 @@
                     "format": "directory-path",
                     "description": "Directory for output of all workflow results."
                 }
-            }
+            },
+            "required": ["out_dir"] 
         },
         "misc": {
             "title": "Miscellaneous Options",
