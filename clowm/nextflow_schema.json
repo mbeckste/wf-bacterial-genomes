@@ -240,19 +240,17 @@
                     "description": "Directory for output of all workflow results."
                 }
             }
-            "required": ["out_dir"]
         },
         "misc": {
             "title": "Miscellaneous Options",
             "type": "object",
-            "fa_icon": "fas fa-gear",
             "description": "Everything else.",
             "default": "",
             "properties": {
                 "threads": {
                     "type": "integer",
                     "title": "Threads",
-                    "default": 4,
+                    "default": 3,
                     "description": "Number of CPU threads.",
                     "help_text": "Provided to alignment, flye assembly and prokka steps to improve performance."
                 },
