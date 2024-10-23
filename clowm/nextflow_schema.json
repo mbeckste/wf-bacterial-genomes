@@ -90,10 +90,9 @@
             "properties": {
                 "out_dir": {
                     "type": "string",
-                    "title": "Output directory",
-                    "default": "output",
+                    "title": "Output bucket/directory",
                     "format": "path",
-                    "description": "Directory for output of all workflow results."
+                    "description": "Bucket/directory for output of all workflow results."
                 }
             }
         },
