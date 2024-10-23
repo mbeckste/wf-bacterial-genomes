@@ -92,7 +92,7 @@
                     "type": "string",
                     "title": "Output directory",
                     "default": "output",
-                    "format": "directory-path",
+                    "format": "file-path",
                     "description": "Directory for output of all workflow results."
                 }
             }
